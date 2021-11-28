@@ -1,0 +1,17 @@
+.main-content {
+    height: 120vh;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.portfolio-img {
+    width: 40%;
+    height: auto;
+    justify-content: center;
+}

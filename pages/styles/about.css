@@ -1,0 +1,16 @@
+.main-content {
+    height: 90vh;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-img {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    
+}
+
