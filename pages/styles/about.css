@@ -1,6 +1,6 @@
 .main-content {
     height: 90vh;
-    padding: 1rem 3rem;
+    padding: 1rem 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,4 +13,9 @@
     justify-content: center;
     
 }
+
+p {
+    padding: 0 2.5rem;
+}
+
 

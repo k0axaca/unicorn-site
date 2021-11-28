@@ -1,17 +1,38 @@
 .main-content {
+    margin-top: 2rem;
     height: 120vh;
     padding: 1rem 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 0 8rem;
 }
 
+p {
+    padding: 1rem;
+    margin: 1rem;
+}
 
+h2 {
+    grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 1.2eem 0;
+}
 
-.portfolio-img {
-    width: 40%;
+.port-pic {
+    width: 350px;
     height: auto;
-    justify-content: center;
+    justify-content: left;
+          
+}
+
+.repo-link {
+    text-decoration: underline;
+}
+
+.repo-link:hover {
+    color: #a5dfc5;
+
 }
